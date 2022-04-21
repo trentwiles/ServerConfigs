@@ -1,0 +1,23 @@
+channel_threads: 1
+feed_threads: 1
+db:
+  user: kemal
+  password: kemal
+  host: localhost
+  port: 5432
+  dbname: invidious
+full_refresh: false
+https_only: false
+external_port: 
+check_tables: true
+port: 3000
+host_binding: 0.0.0.0
+admins: 
+- 
+captcha_key: 
+captcha_api_url: https://api.anti-captcha.com
+domain: inv.riverside.rocks
+statistics_enabled: true
+banner: "Donate bitcoin: bc1q3u8wvz7pa9fj4jwsykqct6jjnewcwf7wxhvd9j (we are broke)"
+default_user_preferences:
+   local: true
